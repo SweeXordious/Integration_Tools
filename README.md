@@ -7,3 +7,4 @@ This repo will contain some CI tools added on a project
 - make the changes wanted, ie add your favourite CI tool;
 - Make a pull request.
 
+Its an IntelliJ IDEA project...
