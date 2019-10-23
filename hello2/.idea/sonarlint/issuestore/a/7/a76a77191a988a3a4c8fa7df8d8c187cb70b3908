@@ -1,0 +1,18 @@
+
+lsquid:S4144"UUpdate this method so that its implementation is not identical to "dummy" on line 15.(›²˜›
+Vsquid:S1226"?Introduce a new variable instead of reusing the parameter "nb".(·Ùˆ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ù¿éûÿÿÿÿ
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãêœàıÿÿÿÿ
+lsquid:S00116	"ORename this field "Test" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²½á‚ùÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(İ·¬ÿÿÿÿÿ
+Vsquid:S1226"?Introduce a new variable instead of reusing the parameter "nb".(·Ùˆ
+Dsquid:S1068	"(Remove this unused "Test" private field.(²½á‚ùÿÿÿÿ
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÃŸêûÿÿÿÿ
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›²˜›
+[squid:S2583"DChange this condition so that it does not always evaluate to "false"(•ßÔ£
+[squid:S2583"DChange this condition so that it does not always evaluate to "false"(•ßÔ£
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(İ·¬ÿÿÿÿÿ
+1squid:S1220""Move this file to a named package.
