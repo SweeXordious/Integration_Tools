@@ -1,0 +1,2 @@
+-Insaller EclEmma sur Eclipse : Help -> Eclipse Marketplace
+-clic droit sur TestHello.java -> couverage as -> JUnittest
