@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Hello" default="run"> 
+      <property name="dossier"   value="Classes"/>
+       <target name="compile">
+            <mkdir dir="${dossier}"/>
+             <javac includeantruntime="false" srcdir="./src/main/java/classe" destdir="${dossier}"/>
+       </target> 
+       
+       <target name="jar" depends="compile">
+                    <mkdir dir="jar"/> 
+                    <jar destfile="jar/Hello.jar" basedir="Classes">   
+                          <manifest> 
+                                <attribute name="MainClass" value="hello"/> 
+                         </manifest> 
+                    </jar> 
+      </target> 
+      
+      <target name="run" depends="jar"> 
+             <java classname="hello" fork="true"> 
+             <classpath  path="Classes"/>
+             </java>    
+      </target> 
+</project> 
